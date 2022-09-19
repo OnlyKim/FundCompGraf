@@ -21,21 +21,21 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\Base2\HelloTriangle\HelloTriangle\glad.c">
+    <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\Base2\HelloTriangle\Shaders\Hello_Triangle.fs">
-      <Filter>Shaders</Filter>
-    </None>
-    <None Include="..\..\..\Base2\HelloTriangle\Shaders\Hello_Triangle.vs">
-      <Filter>Shaders</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Hello_Triangle.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Hello_Triangle.vs">
+      <Filter>Shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

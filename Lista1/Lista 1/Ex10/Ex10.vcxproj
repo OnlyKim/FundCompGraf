@@ -130,15 +130,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Base2\HelloTriangle\HelloTriangle\glad.c" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\Base2\HelloTriangle\Shaders\Hello_Triangle.fs" />
-    <None Include="..\..\..\Base2\HelloTriangle\Shaders\Hello_Triangle.vs" />
+    <ClInclude Include="Shader.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shader.h" />
+    <None Include="Hello_Triangle.fs" />
+    <None Include="Hello_Triangle.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

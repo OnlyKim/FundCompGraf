@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Base\HelloTriangle\HelloTriangle\glad.c" />
-    <ClCompile Include="..\..\..\Base\HelloTriangle\HelloTriangle\Source.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
